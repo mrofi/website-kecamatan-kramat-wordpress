@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ ! -d $OPENSHIFT_DATA_DIR/uploads ];
+    then mkdir $OPENSHIFT_DATA_DIR/uploads
+fi

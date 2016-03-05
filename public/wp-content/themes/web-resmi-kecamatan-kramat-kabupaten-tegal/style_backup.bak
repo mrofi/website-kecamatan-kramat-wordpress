@@ -1,0 +1,358 @@
+/*
+Theme Name:  WEB RESMI KECAMATAN KRAMAT KABUPATEN TEGAL
+Theme URI:
+Version:     1.0
+Description: Theme for Webste Kecamatan Kramat Kabupaten Tegal
+Author:      Hiret Web Indonesia
+Author URI:  https://www.hiret.web.id
+Template:    Divi
+*/
+
+
+@import url("../Divi/style.css");
+
+
+/***********************************************************************
+Caution: do not remove this to keep Divi Children Engine always updated
+Divi Children Engine version: 1.0.2
+***********************************************************************/
+
+/*------------------------------[FONT ICONS]-----------------------------*/
+/*--[Created by Divi Children, http://divi4u.com/divi-children-plugin/]--*/
+/*-----------------------------------------------------------------------*/
+
+.icon_tags, .icon_profile, .icon_chat, .icon_clipboard, .icon_calendar {
+	font-family: 'ETmodules';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+	color: #318EC3;
+}
+.icon_tags:before {
+	content: "\e07c";
+	padding: 0px 5px 0 0;
+}
+.icon_profile:before {
+	content: "\e08a";
+	padding: 0 5px 0 0;
+}
+.icon_chat:before {
+	content: "\e066";
+	padding: 0 5px 0 20px;
+}
+.icon_clipboard:before {
+	content: "\e0e6";
+	padding: 0 5px 0 20px;
+}
+.icon_calendar:before {
+	content: "\e023";
+	padding: 0 5px 0 20px;
+}
+
+/*- YOU CAN INCLUDE THE CUSTOM CODE FOR YOUR CHILD THEME BELOW THIS LINE-*/
+
+/*------------------------------------------------*/
+/*-----------------[BASIC STYLES]-----------------*/
+/*------------------------------------------------*/
+.header-title h4 {
+    color: #000;
+    font-weight: 600;
+}
+
+.header-title address {
+    color: #333;
+    display: none;
+    margin-bottom: 20px!important;
+    /*line-height: 20px;*/
+}
+
+.logo_container .logo {
+    display: inline-block;
+}
+
+#main-header div#et-top-navigation {
+    background-color: #006600;
+}
+
+.et_header_style_centered #top-menu > li > a {
+    padding: 1em;
+}
+
+#top-menu .menu-item-has-children > a:first-child:after, .fullwidth-menu .menu-item-has-children > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after {
+    top: 14px!important;
+}
+
+#top-menu > li {
+    padding: 0 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    margin-left: -5px;
+}
+
+.container.et_search_form_container {
+    top: 5px;
+}
+
+
+/*------------------------------------------------*/
+/*---------------[MAIN LAYOUT INFO]---------------*/
+/*------------------------------------------------*/
+
+/* center in mobile for menu / li */
+
+.center-in-mobile ul, .center-in-mobile {
+	width: 100%!important;
+	text-align: center;
+	margin: 0 0 0 0 ;
+}
+.center-in-mobile ul li, .center-in-mobile li {
+	float: none;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/*WIDGET*/
+.et_mobile_menu {
+    background-color: rgba(48, 48, 48, 0.9);
+}
+
+.et_mobile_menu li a:hover, li.current-menu-item > a {
+    color: #eeee22!important;
+}
+
+.et_pb_module .et_pb_widget.et_pb_new_widget {
+    width: 100%!important;
+    margin: 0!important;
+}
+
+#menu-home-submenu {
+	padding: 0;
+}
+
+#menu-home-submenu li {
+    list-style: none;
+}
+
+#menu-home-submenu li {
+    text-align: center;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#menu-home-submenu li a > i {
+    display: block;
+    font-size: 2em;
+}
+
+.widget_search input#searchsubmit {
+	color: #fff;
+	background-color: #688F00;
+}
+
+/*------------------------------------------------*/
+/*---------------[DROPDOWN MENU]------------------*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*-------------------[COMMENTS]-------------------*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*---------------------[FOOTER]-------------------*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*--------------------[SIDEBAR]-------------------*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*------------[CAPTIONS AND ALIGNMENTS]-----------*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*-----------------[WP CALENDAR]------------------*/
+/*------------------------------------------------*/
+
+/*------------------------------------------------*/
+/*-----------------[NEWS TICKER]------------------*/
+/*------------------------------------------------*/
+
+.newsticker {
+    width: 100%;
+    margin-top: -10px;
+    display: none;
+}
+
+/*------------------------------------------------*/
+/*----------------[SOCIAL MEDIA]------------------*/
+/*------------------------------------------------*/
+
+ul.et_pb_social_media_follow.center {
+	width:100%;
+	text-align:center;
+	margin: 0 0 0 0 ;
+}
+.et_pb_social_media_follow.center li {
+	float:none;
+	display:inline-block;
+}
+
+
+
+
+/*------------------------------------------------*/
+/*-------------------[PAGE NAVI]------------------*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*------------------[TRANSITIONS]-----------------*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*---------------[RESPONSIVE LAYOUTS]-------------*/
+/*------------------------------------------------*/
+
+@media only screen and ( min-width: 981px ) {
+
+	/*HOMEPAGE*/
+	#header-homepage {
+	    background-image: url(/images/homepage_header_background.jpg);
+	    background-position: 100% 100%;
+	    background-repeat: no-repeat;
+	    min-height: 500px;
+	}
+
+	#header-mobile-homepage {
+		display: none;
+	}
+
+	.et_fullwidth_nav #main-header .container {
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+
+	.logo_container {
+		padding: 10px!important;
+		/*margin-bottom: 30px;*/
+	}
+
+	.logo_container .logo {
+	    position: absolute;
+	    left: 10%;
+	}
+
+	.logo_container .header-title {
+	    display: inline-block;
+	}
+
+	.header-title h4 {
+	    font-size: 2em;
+	}
+
+	.header-title address {
+	    display: block;
+	}
+
+	.et-fixed-header .header-title address {
+	    display: none;
+	}
+
+	.et-fixed-header .logo_container .logo {
+	    height: 80px;
+	}
+
+	/*MENU*/
+	.nav ul li a:hover, .nav ul li ul li a:hover, li.current-menu-item > a {
+	    color: #eeee22!important;
+	}
+
+	/*SEARCH*/
+	.et_header_style_centered .et-fixed-header .et-search-form input, .et_header_style_centered .et-fixed-header span.et_close_search_field {
+		top: 50%;
+	}
+
+	/*NEWSTICKER*/
+	.newsticker {
+		margin-top: -5px;
+		display: block;
+	}
+
+	/*center in mobile*/
+	.center-in-mobile ul, .center-in-mobile {
+		text-align: left;
+	}
+}
+
+/*-------------------[960px]------------------*/
+@media only screen and ( min-width: 981px ) and ( max-width: 1100px ) {
+
+	/*-------------------[Sliders]------------------*/
+
+	/*-------------------[Portfolio]------------------*/
+
+	/*-------------------[Sidebar]------------------*/
+
+	/*-------------------[Menu]------------------*/
+
+}
+
+/*-------------------[768px]------------------*/
+@media only screen and ( max-width: 980px ) {
+
+	/*-------------------[Portfolio]------------------*/
+
+	/*-------------------[Sliders]------------------*/
+
+	/*-------------------[Menu]------------------*/
+
+}
+
+@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
+
+}
+
+@media screen and ( max-width: 782px ) {
+
+}
+
+/*-------------------[480px]------------------*/
+@media only screen and ( max-width: 767px ) {
+
+	/*-------------------[Menu]------------------*/
+
+}
+
+/*-------------------[320px]------------------*/
+@media only screen and ( max-width: 479px ) {
+	.et_header_style_centered .et-fixed-header #et_mobile_nav_menu {
+		margin-top: 48px;
+	}
+
+}
